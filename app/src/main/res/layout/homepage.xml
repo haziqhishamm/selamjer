@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="16dp"
+        android:gravity="center_vertical"> <!-- Center vertically within the parent -->
+
+        <TextView
+            android:id="@+id/tv_restAppBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SelamJer"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" /> <!-- Center horizontally within the RelativeLayout -->
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_addListing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_rounded_input_field"
+            android:text="Add Listing"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_viewListing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_addListing"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:text="View Listing"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_sellerLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_viewListing"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:text="Shop Location"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_sellerLocation"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_rounded_input_field"
+            android:text="About Us"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577705727826",
+    "project_id": "selamjer-dd248",
+    "storage_bucket": "selamjer-dd248.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577705727826:android:75906a8cdedfb9de938c8b",
+        "android_client_info": {
+          "package_name": "com.example.selamjer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgwZv-upMfdtvU4B5XHniaTl2jk1duk98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

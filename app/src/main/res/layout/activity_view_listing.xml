@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewListing">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:padding="16dp"
+        android:gravity="center_vertical"> <!-- Center vertically within the parent -->
+
+        <TextView
+            android:id="@+id/tv_restAppBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Listings"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" /> <!-- Center horizontally within the RelativeLayout -->
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_showAllListing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_appBar"
+        tools:listitem="@layout/layout_view_listing" />
+
+
+
+</RelativeLayout>
